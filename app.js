@@ -345,3 +345,7 @@ app.post('/clear-message', [
 server.listen(port, function() {
   console.log('App running on *: ' + port);
 });
+
+
+// Export the Express API
+module.exports = app;
